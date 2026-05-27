@@ -23,7 +23,7 @@ jobs:
         uses: actions/checkout@v6
 
       - name: Setup Cangjie
-        uses: Zxilly/setup-cangjie@v2.1.1
+        uses: Zxilly/setup-cangjie@v2
         with:
           channel: lts
           version: ${{ matrix.cangjie_version }}
